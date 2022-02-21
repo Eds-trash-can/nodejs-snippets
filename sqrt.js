@@ -2,10 +2,11 @@
 
 function s(x) {
 	let found = false;
-	while( !found ) {
+	while ( !found ) {
 		console.log( x, x = Math.sqrt(x) )
 		if( x === 1 ) found = true
 	}
 }
 
+// s(0.5)
 // => YES
